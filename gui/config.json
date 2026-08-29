@@ -1,0 +1,32 @@
+{
+  "serial_baud": 115200,
+  "room_width_m": 8.0,
+  "room_height_m": 6.0,
+  "position_smoothing": 0.25,
+  "anchors": [
+    {
+      "id": 0,
+      "name": "Master",
+      "x": 4.0,
+      "y": 0.5,
+      "rssi_at_1m": -46.0,
+      "path_loss": 2.4
+    },
+    {
+      "id": 1,
+      "name": "Node 1",
+      "x": 0.5,
+      "y": 5.5,
+      "rssi_at_1m": -46.0,
+      "path_loss": 2.4
+    },
+    {
+      "id": 2,
+      "name": "Node 2",
+      "x": 7.5,
+      "y": 5.5,
+      "rssi_at_1m": -46.0,
+      "path_loss": 2.4
+    }
+  ]
+}
